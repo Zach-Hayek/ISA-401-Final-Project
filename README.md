@@ -70,5 +70,17 @@ life_expectancy_2019 =  tidyr::unnest(life_expectancy_2019)
 # download the df to csv file
 writexl::write_xlsx(life_expectancy_2019, "G:\\My Drive\\Senior Year\\Sem 1\\ISA401\\Final Project\\LifeExpectancyAPI2019.xlsx")
 
+# here are all of the sources we used to collect data
+# https://www.kaggle.com/datasets/unsdsn/world-happiness?select=2019.csv
+# https://www.kaggle.com/datasets/ajaypalsinghlo/world-happiness-report-2023/data
+# https://statisticstimes.com/economy/world-gdp-capita-ranking.php
+# https://genderdata.worldbank.org/en/indicator/ny-gdp-pcap-cd
+# https://countryeconomy.com/hdi?year=2019
+# https://www.datapandas.org/ranking/hdi-by-country
+# https://ghoapi.azureedge.net/api/WHOSIS_000001
+# https://worldpopulationreview.com/country-rankings/life-expectancy-by-country
 
-# Screenshot of Access used to combine data (we filtered to remove all observations which had null values)
+
+
+# We utilized Access to link each of our tables into one database
+# In Access, we removed all observations for countries which had one or more null values
